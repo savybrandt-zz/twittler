@@ -1,0 +1,125 @@
+* {
+	font-family: courier;
+}
+
+body {
+	background-color: floralwhite;
+	text-align: center;
+}
+
+h1 {
+	font-family: georgia;
+	color: darkorange;
+	text-align: center;
+	font-size: 80px
+}
+
+h2 {
+	width: 400px;
+	border-bottom: solid;
+	color: deeppink;
+	font-size: xx-large;
+}
+
+h3 {
+	margin-top: 50px;
+	width: 400px;
+	border-bottom: solid;
+	color: deeppink;
+	font-size: x-large;
+}
+
+*:focus {
+    outline: none;
+}
+
+img {
+	height: 80px;
+	width: 80px;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.write {
+	text-align: center;
+	font-size: large;
+	border-radius: 2%;
+	width: 400px;
+}
+
+form.usertweet {
+	padding-top: 5px;
+ 	background-color: powderblue;
+ 	height: 135px;
+ 	border-radius: 10%
+}
+
+input.usertweet {
+	margin-top: 10px;
+	border: solid orange 5px;
+	width: 375px;
+	height: 20px;
+	padding-bottom: 30px;
+	font-size: medium;
+}
+
+button {
+	background-color: orange;
+	height: 30px;
+	margin-top: -50px;
+	width: 386px;
+	box-shadow: none;
+	border: none;
+	font-size: medium;
+	cursor: pointer;
+}
+
+button.searchbar {
+	height: 25px;
+	background-color: powderblue;
+	margin-top: 10px;
+}
+
+input.searchbar {
+	height: 18px;
+	width: 150px;
+	font-size: medium;
+	border: none;
+	background-color: floralwhite;
+	border-bottom: solid black 2px;
+	box-shadow: none;
+}
+
+.more {
+	background-color: powderblue;
+	margin-top: 15px
+}
+
+.read {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: large;
+	border-radius: 2%;
+	width: 400px;
+}
+
+.search {
+	text-align: center;
+	font-size: large;
+	border-radius: 2%;
+	width: 400px;
+}
+
+h3.results {
+	visibility: hidden;
+}
+
+p {
+	font-style: italic;
+	visibility: visible;
+}
+

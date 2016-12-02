@@ -3,25 +3,33 @@
   <head>
     <script src="jquery.js"></script>
     <script src="data_generator.js"></script>
+    <script src='twittler.js'></script>
+    <link rel="stylesheet" type="text/css" href="twittler.css">
   </head>
   <body>
-    <script>
-
-      $(document).ready(function(){
-        var $body = $('body');
-        $body.html('');
-
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($body);
-          index -= 1;
-        }
-
-      });
-
-    </script>
+  <h1> <img src='http://clipartix.com/wp-content/uploads/2016/04/Bird-face-clip-art-free-clipart-images.png'> Welcome to Twittler!</h1>
+  <div class='write'>
+    <h2>Write</h2>
+    <form class="usertweet">
+      @YOU:<br>
+      <input type='text' name='usertweet' class="usertweet">
+      <button type='submit' class="usertweet">post!</button>
+    </form>
+    <h3>Your Tweets</h3>
+    <p>you have no tweets yet!</p>
+  </div>
+  <div class='read'>
+    <h2>Read</h2>
+    <div class='feed'></div>
+    <button class='more' type="submit">more!</button>
+  </div>
+  <div class='search'>
+    <h2>Search</h2>
+      <form class='searchbar'>
+      Show me @<input type='text' name='search' class='searchbar'>'s tweets!
+      <button type='submit' class='searchbar'>search</button>
+    </form>
+    <h3 class="results">'s Tweets</h3>
+  </div>
   </body>
 </html>
