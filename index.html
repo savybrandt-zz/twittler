@@ -7,29 +7,32 @@
     <link rel="stylesheet" type="text/css" href="twittler.css">
   </head>
   <body>
-  <h1> <img src='http://clipartix.com/wp-content/uploads/2016/04/Bird-face-clip-art-free-clipart-images.png'> Welcome to Twittler!</h1>
+  <h1> <img src='http://clipartix.com/wp-content/uploads/2016/04/Bird-face-clip-art-free-clipart-images.png'> twittler</h1>
   <div class='write'>
     <h2>Write</h2>
     <form class="usertweet">
       @YOU:<br>
       <input type='text' name='usertweet' class="usertweet">
-      <button type='submit' class="usertweet">post!</button>
+      <button type='button' class="usertweet">post!</button>
     </form>
     <h3>Your Tweets</h3>
     <p>you have no tweets yet!</p>
+    <button class='moreuser' type="button">more!</button>
   </div>
   <div class='read'>
     <h2>Read</h2>
     <div class='feed'></div>
-    <button class='more' type="submit">more!</button>
+    <button class='morefeed' type="button">more!</button>
   </div>
   <div class='search'>
     <h2>Search</h2>
       <form class='searchbar'>
       Show me @<input type='text' name='search' class='searchbar'>'s tweets!
-      <button type='submit' class='searchbar'>search</button>
+      <button type='button' class='searchbar'>search</button>
     </form>
-    <h3 class="results">'s Tweets</h3>
+    <h3 class="results"></h3>
+    <p class="results"></p>
+    <button class='moreresults' type="button">more!</button>
   </div>
   </body>
 </html>

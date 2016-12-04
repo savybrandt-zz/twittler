@@ -1,5 +1,5 @@
 * {
-	font-family: courier;
+	font-family: helvetica;
 }
 
 body {
@@ -11,7 +11,7 @@ h1 {
 	font-family: georgia;
 	color: darkorange;
 	text-align: center;
-	font-size: 80px
+	font-size: 60px;
 }
 
 h2 {
@@ -34,8 +34,8 @@ h3 {
 }
 
 img {
-	height: 80px;
-	width: 80px;
+	height: 100px;
+	width: 100px;
 }
 
 div {
@@ -54,7 +54,7 @@ form.usertweet {
 	padding-top: 5px;
  	background-color: powderblue;
  	height: 135px;
- 	border-radius: 10%
+ 	border-radius: 10%;
 }
 
 input.usertweet {
@@ -66,7 +66,7 @@ input.usertweet {
 	font-size: medium;
 }
 
-button {
+button.usertweet {
 	background-color: orange;
 	height: 30px;
 	margin-top: -50px;
@@ -81,6 +81,11 @@ button.searchbar {
 	height: 25px;
 	background-color: powderblue;
 	margin-top: 10px;
+	width: 386px;
+	box-shadow: none;
+	border: none;
+	font-size: medium;
+	cursor: pointer;
 }
 
 input.searchbar {
@@ -93,9 +98,33 @@ input.searchbar {
 	box-shadow: none;
 }
 
-.more {
-	background-color: powderblue;
-	margin-top: 15px
+button.morefeed {
+	background-color: pink;
+	margin-top: 15px;
+	height: 30px;
+	width: 386px;
+	box-shadow: none;
+	border: none;
+	font-size: medium;
+	cursor: pointer;
+}
+
+button.moreresults {
+	background-color: pink;
+	margin-top: 15px;
+	visibility: hidden;
+	height: 30px;
+	width: 386px;
+	box-shadow: none;
+	border: none;
+	font-size: medium;
+	cursor: pointer;
+}
+
+button.moreuser {
+	background-color: pink;
+	margin-top: 15px;
+	visibility: hidden;
 }
 
 .read {
@@ -123,3 +152,7 @@ p {
 	visibility: visible;
 }
 
+ $user {
+	text-decoration: underline;
+	cursor: pointer;
+ }
